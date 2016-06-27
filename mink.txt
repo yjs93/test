@@ -1,3 +1,5 @@
 git init 创建版本库
-git add <fie>把文件添加到GIT库
+git add <fie>把文件添加到GIT，准备提交
 git commit -m 描述语言
+git diff 查看修改的内容
+git log 查看git提交日志
