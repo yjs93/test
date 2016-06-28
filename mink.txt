@@ -1,5 +1,8 @@
-git init 创建版本库
-git add <fie>把文件添加到GIT，准备提交
-git commit -m 描述语言
-git diff 查看修改的内容
+git init 创建版本库 /.git/目录
+//以下命令都需要拥有=版本库的时候才可以执行
+git add <fie>把文件添加到GIT(暂存区)，准备提交
+git add -A 或者git add -all 工作区的所有修改修改添加到暂存区
+git commit -m 描述语言 只有添加文本之后才能使用
+git status 查看仓库状态
+git diff 查看修改的内容。注意已经使用git add之后，不能查看
 git log 查看git提交日志
