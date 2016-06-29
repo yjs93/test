@@ -1,3 +1,5 @@
+git config -- global user.email""添加加邮箱
+git comfig --global user.name""添加名字
 git init 创建版本库 /.git/目录
 
 //以下命令都需要拥有=版本库的时候才可以执行
